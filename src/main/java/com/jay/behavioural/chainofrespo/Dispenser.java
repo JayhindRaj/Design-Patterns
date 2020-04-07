@@ -11,7 +11,7 @@ public abstract class Dispenser {
 	Dispenser successor;
 
 	public void setSuccessor(Dispenser successor) {
-		this.successor = successor;
+		this.successor =  successor;
 	}
 
 	public abstract void dispense(int amount);
