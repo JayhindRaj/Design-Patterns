@@ -2,8 +2,6 @@ package com.jay.creational.singleton;
 
 import java.io.Serializable;
 
-import net.bytebuddy.implementation.bind.annotation.Super;
-
 public class Singleton implements Serializable, Cloneable{
 
 	private static Object lock = new Object();
